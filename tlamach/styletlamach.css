@@ -1,0 +1,98 @@
+	*{
+		margin:0;
+		padding:0;
+		box-sizing: border-box;
+	}	
+	body{
+		background-image: url("propuestafondo.png");
+		height: 100%;
+		background-color: #fcf9fb;
+	}
+	.titulo-principal {
+		padding-left: 50px;
+	}
+	#banner {
+		width: 100%;
+		height: auto;
+	}
+
+	.principal {
+		/*background-color: beige;*/
+		padding: 20px;
+	}
+
+	.titulo-centralizado {
+		text-align: center;
+		font-size: 30px;
+
+	}
+
+	h1 {
+		text-align: center;
+		color: chocolate;
+	}
+
+
+	p {
+		text-align: justify;
+	}
+
+	strong {
+
+		color: #f32ea1;
+	}
+
+	em.strong {
+		color: darkmagenta;
+
+	}
+
+	h2 {
+		text-align: center;
+		color: rgb(112, 2, 88);
+	}
+
+	h3 {
+		text-align: center;
+		color: rgb(138, 13, 111);
+	}
+
+	#mision {
+		text-align: center;
+		font-size: 23px;
+		color: darkmagenta;
+
+	}
+
+	#contamos {
+		color: rgb(129, 6, 78);
+		font-size: 30px;
+	}
+
+	.diferenciales {
+		/*background: beige;*/
+		padding: 30px;
+	}
+
+
+	.items {
+		font-style: italic;
+	}
+
+	ul {
+		display: inline-block;
+		vertical-align: top;
+		width: 20%;
+		margin-right: 15%;
+	}
+
+	.porque {
+		width: 60%;
+		height: 150px;
+	}
+
+	.caja {
+		width: 900px;
+		position: absolute;
+		margin: 0 auto;
+	}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>contacto  - Tlamach </title> 
+        <link rel="styleesheet" href="Reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+     <body>
+    <header>
+        <div class="caja">
+        <h1 ><img src="logofondo.png" alt="logo tlamach"></h1>
+        <nav>
+            <ul>
+                <li><a href="tlamach.html" >INICIO</a></li>
+                <li><a href="productos.html">PRODUCTOS</a></li>
+                <li><a href="contacto.html">CONTACTANOS</a></li>
+            </ul>
+          </nav>
+       </div>
+       
+       
+
+    </header>
+    <main>
+        <form>
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text"id="nombreapellido" class="input-padron" required>
+
+            <label for="correoelectronico">Correo Electrònico</label>
+            <input type="email"id="correoelectronico"class="input-padron" required placeholder="email@dominio.com">
+
+            <label for="telefono">Telèfono</label>
+            <input type="tel"id="telefono"class="input-padron"required placeholder="(XX) XXXX XXXX">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+
+            <div>
+
+            <leyend>¿Como podemos contactarte?</leyend>
+            <label for="radio-email"><input type="radio" name="contacto" value="email" id ="radio-email" >Email</label> 
+
+            <label for="radio-telefono"> <input type="radio" name="contacto" value="telefono" id ="radio-telefono" >Telèfono</label> 
+           
+            <label for="radio-whatsapp"> <input type="radio"name="contacto" value="whatsapp" id ="radio-whatsapp" checked>WhatsApp</label> 
+           
+            </div>
+
+        <fdiv>
+            <leyend>¿Que producto es de tu interès?</leyend>
+            <select>
+            <option>Accesorios</option>
+            <option>Bolsas</option>
+            <option>Lienzos</option>
+            </select>
+        </div>
+
+        <label class="checkbox"><input type="checkbox" checked> ¿Le gustaria recibir novedades de nuestros productos?</label>
+
+        <input type="submit" value="Enviar Formulario" class="enviar">
+
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+        
+        <tbody>
+            <tr>
+                <td>Lunes a Viernes</td>
+                <td>8:00 am - 8:00 pm</td>
+            </tr> 
+            <tr>
+                <td>Sàbados</td>
+                <td>8:00 am- 6:00 pm</td>
+            </tr>
+            <tr>
+                <td>Domingo</td>
+                <td>Descanso</td>
+            </tr>
+        </tbody>
+        </table>
+    </main>
+    <footer>
+        <img src="a1.png">
+        <p class="copyright">©Copyright Tlamach Ropa Artesanal-2022</p>
+
+       </footer>
+
+        </body>
+    </head>
+</html>
